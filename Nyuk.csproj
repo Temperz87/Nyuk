@@ -74,6 +74,7 @@
     <Reference Include="UnityEngine.IMGUIModule">
       <HintPath>D:\Vidjagames\steamapps\common\VTOL VR\VTOLVR_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>D:\Vidjagames\steamapps\common\VTOL VR\VTOLVR_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
@@ -86,10 +87,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EquipNukePatch.cs" />
     <Compile Include="LoadoutConfiguratorPatch.cs" />
     <Compile Include="Nuke.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Putnuke.cs" />
+    <Compile Include="Warhead.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
